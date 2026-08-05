@@ -27,8 +27,6 @@ for i in range(1,11):
     print(f"{x} * {i} = {i*x}")
 print("\n")
 
-for i in range(x):
+for i in range(1,x):
     if i<=10:
         print(f"{x} * {i} = {i*x}")
-    else:
-        break
