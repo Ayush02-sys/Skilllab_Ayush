@@ -24,4 +24,11 @@ print("\n")
 
 x=int(input("enter no."))
 for i in range(1,11):
-    print(f"{i} * {x} = {i*x}")
+    print(f"{x} * {i} = {i*x}")
+print("\n")
+
+for i in range(x):
+    if i<=10:
+        print(f"{x} * {i} = {i*x}")
+    else:
+        break
