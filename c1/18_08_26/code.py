@@ -6,5 +6,4 @@ sum=0
 for x in t:
     sum+=x
 avg=sum/len(t)
-print("the sum of numbers in tuple is : ",sum)
-print("the average of numbers in tuple is : ",avg)
+print("The sum of numbers in tuple is : ",sum,"\nThe average of numbers in tuple is : ",avg)
