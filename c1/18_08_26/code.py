@@ -1,5 +1,6 @@
 #WAP to take tuple of numbers from user and print its sum and avg?
 #eval is evaluate function that evaluate the input in python , whether its str int list tuple etc
+
 t=eval(input("enter multiple numbers seprated by commas : "))
 # l=len(t)
 sum=0
