@@ -16,4 +16,4 @@ while i<=e:
     i+=1
 print("Name of the student","\t","Marks")
 for x in na:
-    print("\t",x,"\t\t",na[x])
+    print(" ",x,"\t\t",na[x])
