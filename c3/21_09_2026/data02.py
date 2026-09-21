@@ -19,6 +19,7 @@ import pandas as pd
 
 #2nd way
 
+#generating sample
 np.random.seed(42)
 df=pd.DataFrame({
     "Sleeping_Hours":np.random.randint(1,15,24),
@@ -26,4 +27,12 @@ df=pd.DataFrame({
     "workout_hours":np.random.randint(5,30,24),
     "Assesment":np.random.randint(2,15,24)
 })
+
+df["Performance"]=np.where(df["workout_hours"]>=20,"High","Low")
 print(df)
+
+sns.scatterplot(
+    data=df, x="Sleeping_Hours",y="workout_hours", hue="Performance"
+)
+plt.title("Performance of Workout based on sleeping hours")
+print(plt.show())
